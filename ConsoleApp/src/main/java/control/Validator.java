@@ -48,18 +48,16 @@ public class Validator {
         try {
             Long.parseLong(field);
         } catch (Exception e) {
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
 
     public boolean isModelType(String field) {
-        try {
-            ModelTypes.valueOf(field);
-        } catch (Exception e) {
-            return false;
-        }
-        return true;
+            if(field.equals("{Dragon}")){
+                return true;
+            }
+        return false;
     }
 
     public boolean checkCommand(String command) {
@@ -94,4 +92,7 @@ public class Validator {
     public String getCommand() {
         return Command;
     }
+
+
+
 }

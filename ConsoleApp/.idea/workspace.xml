@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Fixed id check">
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Починил команду Save, добавил в команду Exit 'Работа успешно завершена'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV/Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV/Dragon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/AddCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/AddCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/ExitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/SaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/SaveCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/AddCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/AddCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/ExitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/ExitCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/SaveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/SaveCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Dragon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Dragon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/ValidateFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ValidateFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Information.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/ValidateFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/ValidateFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Validator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626632299713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Починил команду Save, добавил в команду Exit 'Работа успешно завершена'">
+      <created>1626634948134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626634948134</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +143,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed id check" />
     <MESSAGE value="I finally fixed id output" />
-    <option name="LAST_COMMIT_MESSAGE" value="I finally fixed id output" />
+    <MESSAGE value="Починил команду Save, добавил в команду Exit 'Работа успешно завершена'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Починил команду Save, добавил в команду Exit 'Работа успешно завершена'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/Validator.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -17,15 +17,15 @@ public class Information {
         if (parsedLine.length == 1) {
             return true;
         }
-        if (validator.isString(parsedLine[1])) {
+        if (!validator.isString(parsedLine[1])) {
             id = Long.parseLong(parsedLine[1]);
         }
-        if (!validator.isString(parsedLine[1])) {
-            if (!validator.isModelType(parsedLine[1])) {
-                filename = parsedLine[1];
-            }
-            if (validator.isModelType(parsedLine[1])) {
+        if (validator.isString(parsedLine[1])) {
+            if(parsedLine[0].equals("add") | parsedLine[0].equals("add_if_max") | parsedLine[0].equals("add_if_min")){
                 modleType = parser.deleteBrackets(parsedLine[1]);
+            }
+            if(parsedLine[0].equals("execute_script")){
+                filename = parsedLine[1];
             }
         }
         if (parsedLine.length == 3) {

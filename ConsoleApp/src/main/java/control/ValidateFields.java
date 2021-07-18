@@ -137,12 +137,6 @@ public class ValidateFields {
         return t;
     }
 
-    public static DragonType checkDragonType(String field) throws IllegalArgumentException {
-        DragonType dragonType = DragonType.valueOf(field);
-        return dragonType;
-
-    }
-
     public static DragonType checkDragonTypeInteractive(String promptToChange) {
         DragonType t = null;
         String inData;
