@@ -15,7 +15,7 @@ public class InfoCommand extends Command{
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         System.out.println("Тип коллекции:Linked list" + "\n"
                 + "Дата создания коллекции: " + formatter.format(Dragon.getDragonsCollection().getFirst().getStartDate()) + "\n"
-                + "Дата создания коллекции: " + formatter.format(Dragon.getDragonsCollection().getFirst().getEndDate()) + "\n"
+                + "Дата последнего изменения коллекции: " + formatter.format(Dragon.getDragonsCollection().getLast().getEndDate()) + "\n"
                 + "Коллицество элементов коллекции: " + Utility.count(Dragon.getDragonsCollection()));
 
     }

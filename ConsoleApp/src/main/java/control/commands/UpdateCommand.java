@@ -3,6 +3,7 @@ package control.commands;
 import control.Information;
 import model.Dragon;
 
+import java.time.LocalDateTime;
 import java.util.ListIterator;
 
 public class UpdateCommand extends Command {
@@ -37,6 +38,7 @@ public class UpdateCommand extends Command {
         AddCommand addCommand = new AddCommand();
         Dragon updatedDragon = addCommand.createDragon();
         updatedDragon.setId(id);
+        updatedDragon.setEndDate(LocalDateTime.now());
         Dragon.getDragonsCollection().add(updatedDragon);
     }
 

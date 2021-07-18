@@ -2,6 +2,7 @@ package control.commands;
 
 import model.Dragon;
 
+import java.time.LocalDateTime;
 import java.util.Collections;
 
 public class AddIfMaxCommand extends Command {
@@ -17,6 +18,7 @@ public class AddIfMaxCommand extends Command {
         Dragon dragonNew = addCommand.createDragon();
         if (dragonComparator.compare(dragonMax, dragonNew) < 0) {
             dragonNew.inctCounter();
+            dragonNew.setEndDate(LocalDateTime.now());
             Dragon.getDragonsCollection().add(dragonNew);
             System.out.println("Дракон максимален, поэтому успешно добавлен");
         }

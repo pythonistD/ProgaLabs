@@ -8,6 +8,7 @@ import model.Dragon;
 import model.DragonHead;
 import model.DragonType;
 
+import java.time.LocalDateTime;
 import java.util.ListIterator;
 
 public class AddCommand extends Command {
@@ -61,6 +62,7 @@ public class AddCommand extends Command {
         DragonType dragonType = ValidateFields.checkDragonTypeInteractive(promptToChange);
         Dragon dragon =
                 new Dragon(id,name, age, wingspan, speaking, new Coordinates(x, y), new DragonHead(tooth), dragonType);
+        dragon.setEndDate(LocalDateTime.now());
         return dragon;
     }
 }
