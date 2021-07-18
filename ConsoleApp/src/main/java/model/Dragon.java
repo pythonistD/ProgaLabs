@@ -26,7 +26,6 @@ public class Dragon implements Comparable<Dragon> {
     private DragonHead dragonHead;
     private static LinkedList<Dragon> dragons = new LinkedList<>();
     private static long counter;
-    private long max;
     private Clock clock = Clock.systemUTC();
     private LocalDateTime startDate;
     private LocalDateTime endDate;
@@ -47,21 +46,12 @@ public class Dragon implements Comparable<Dragon> {
         return endDate;
     }
 
-    public long getMax() {
-        return max;
-    }
-
     public long inctCounter() {
         return counter++;
     }
 
     public static LinkedList<Dragon> getDragonsCollection() {
         return Dragon.dragons;
-    }
-
-
-    public LocalDate getCreationDare() {
-        return this.creationDate;
     }
 
     public Dragon() {
@@ -104,20 +94,8 @@ public class Dragon implements Comparable<Dragon> {
         return name;
     }
 
-    public Coordinates getCoordinates() {
-        return coordinates;
-    }
-
-    public LocalDate getCreationDate() {
-        return creationDate;
-    }
-
     public Long getAge() {
         return age;
-    }
-
-    public double getWingspan() {
-        return wingspan;
     }
 
     public DragonType getType() {

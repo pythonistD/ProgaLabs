@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="">
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Fixed id check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSV/Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV/Dragon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/DataWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/ValidateFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ValidateFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/AddCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/AddCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/SaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/SaveCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/DataWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/DataWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/ValidateFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/ValidateFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/AddCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/AddCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/ExitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/ExitCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/SaveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/SaveCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Dragon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Dragon.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CSV/Dragon.csv" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/control/Parser.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Main.java" root0="FORCE_HIGHLIGHTING" />
@@ -55,6 +55,19 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ConsoleApp" />
       <option name="PROGRAM_PARAMETERS" value="CSV\Dragon.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626607161479</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I finally fixed id output">
+      <created>1626632299713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626632299713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed id check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed id check" />
+    <MESSAGE value="I finally fixed id output" />
+    <option name="LAST_COMMIT_MESSAGE" value="I finally fixed id output" />
   </component>
 </project>
