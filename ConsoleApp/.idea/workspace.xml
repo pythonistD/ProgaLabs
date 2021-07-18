@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Починил класс Information, исправил ошибки в методе takeInformation">
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Доработал команду Info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV/Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV/Dragon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/AddCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/AddCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/AddIfMaxCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/AddIfMaxCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/AddIfMinCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/AddIfMinCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/ClearCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/ClearCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/InfoCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/UpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/UpdateCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Information.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/AddCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/AddCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/AddIfMaxCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/AddIfMaxCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/AddIfMinCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/AddIfMinCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/control/commands/InfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/InfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/UpdateCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/UpdateCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Dragon.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626639906606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Доработал команду Info">
+      <created>1626640872597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626640872597</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +161,8 @@
     <MESSAGE value="I finally fixed id output" />
     <MESSAGE value="Починил команду Save, добавил в команду Exit 'Работа успешно завершена'" />
     <MESSAGE value="Починил класс Information, исправил ошибки в методе takeInformation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Починил класс Information, исправил ошибки в методе takeInformation" />
+    <MESSAGE value="Доработал команду Info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработал команду Info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

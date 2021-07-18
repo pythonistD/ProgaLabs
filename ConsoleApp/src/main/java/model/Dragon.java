@@ -27,23 +27,23 @@ public class Dragon implements Comparable<Dragon> {
     private static LinkedList<Dragon> dragons = new LinkedList<>();
     private static long counter;
     private Clock clock = Clock.systemUTC();
-    private LocalDateTime startDate;
-    private LocalDateTime endDate;
+    private static LocalDateTime startDate;
+    private static LocalDateTime endDate;
 
-    public void setStartDate(LocalDateTime startDate) {
-        this.startDate = startDate;
+    public static void setStartDate(LocalDateTime startDate) {
+        Dragon.startDate = startDate;
     }
 
-    public void setEndDate(LocalDateTime endDate) {
-        this.endDate = endDate;
+    public static void setEndDate(LocalDateTime endDate) {
+        Dragon.endDate = endDate;
     }
 
-    public LocalDateTime getStartDate() {
-        return startDate;
+    public static LocalDateTime getStartDate() {
+        return Dragon.startDate;
     }
 
-    public LocalDateTime getEndDate() {
-        return endDate;
+    public static LocalDateTime getEndDate() {
+        return Dragon.endDate;
     }
 
     public long inctCounter() {
