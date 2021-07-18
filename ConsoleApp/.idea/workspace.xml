@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Fixed id check" />
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSV/Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV/Dragon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/DataWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/ValidateFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ValidateFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/DataWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/DataWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/ValidateFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/ValidateFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Dragon.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,17 +24,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="total-fix" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CSV/Dragon.csv" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/control/Parser.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1vU72p1PF19ujdo6cbNaTL444kg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,6 +61,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />

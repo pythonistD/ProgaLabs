@@ -12,7 +12,6 @@ public class DataWriter {
 
     public void writeCollectionData(BufferedReader collectionData) throws IOException, IllegalArgumentException, IncorrectIdException {
         String currentline;
-        collectionData.readLine();
         while ((currentline = collectionData.readLine()) != null) {
             Parser.csvparser(currentline);
         }

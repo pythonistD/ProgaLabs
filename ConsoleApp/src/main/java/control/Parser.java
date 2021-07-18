@@ -26,7 +26,7 @@ public class Parser {
     public static void csvparser(String currentline) throws IOException, IllegalArgumentException, IncorrectIdException {
         CSVParser parser = CSVParser.parse(currentline, CSVFormat.EXCEL);
         for (CSVRecord csvRecord : parser) {
-            long id = Long.parseLong(csvRecord.get(0));
+             long id = Long.parseLong(csvRecord.get(0));
             String name =ValidateFields.checkName(csvRecord.get(1));
             Long age = ValidateFields.checkAge(csvRecord.get(2));
             double wingspan = ValidateFields.checkWingSpan(csvRecord.get(3));
@@ -40,7 +40,6 @@ public class Parser {
             dragon.setStartDate(LocalDateTime.now());
             dragon.setEndDate(LocalDateTime.now());
             Dragon.getDragonsCollection().add(dragon);
-
         }
     }
 

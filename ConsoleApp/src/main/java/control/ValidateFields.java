@@ -11,7 +11,7 @@ import java.io.IOException;
  * Проверка полей объектов коллекции на правильность
  */
 public class ValidateFields {
-    private static long itrCounter = 1;
+    private static long itrCounter = 0;
 
     public static long checkId(long id) throws IncorrectIdException {
         ValidateFields.itrCounter++;
