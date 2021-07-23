@@ -27,9 +27,6 @@ public class Utility {
         promptstocreate.add("Дракон успешно добавлен");
         return promptstocreate;
     }
-    public void repeat(String whatRepeat){
-
-    }
 
     public static int count(LinkedList<Dragon> elements) {
         return elements.size();
@@ -54,6 +51,28 @@ public class Utility {
         avalibleCommand.add("print_ascending");
         avalibleCommand.add("print_unique_head");
         return avalibleCommand;
+    }
+    public static ArrayList<String> avalibleSimpleCommands(){
+        ArrayList<String> avalibleSimpleCommands = new ArrayList<String>();
+        avalibleSimpleCommands.add("help");
+        avalibleSimpleCommands.add("info");
+        avalibleSimpleCommands.add("clear");
+        avalibleSimpleCommands.add("exit");
+        avalibleSimpleCommands.add("save");
+        avalibleSimpleCommands.add("remove_head");
+        avalibleSimpleCommands.add("max_by_type");
+        avalibleSimpleCommands.add("print_ascending");
+        avalibleSimpleCommands.add("print_unique_head");
+        return avalibleSimpleCommands;
+    }
+    public static ArrayList<String> avalibleHardCommands(){
+        ArrayList<String> avalibleHardCommands = new ArrayList<String>();
+        avalibleHardCommands.add("add");
+        avalibleHardCommands.add("remove_by_id");
+        avalibleHardCommands.add("execute_script");
+        avalibleHardCommands.add("add_if_max");
+        avalibleHardCommands.add("add_if_min");
+        return avalibleHardCommands;
     }
 
     public static HashMap<String, Command> createAvailableCommandsMap() {

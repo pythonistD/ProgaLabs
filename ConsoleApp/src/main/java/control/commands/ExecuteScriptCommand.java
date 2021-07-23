@@ -16,7 +16,7 @@ public class ExecuteScriptCommand extends Command {
      * @throws Exception
      */
     public void execute() throws Exception {
-        BufferedReader bufferedReader = DataReader.getData(Information.getFilename());
+        BufferedReader bufferedReader = DataReader.getData(information.getSecField());
         String command = "1";
         boolean flag = true;
         while (true) {

@@ -15,7 +15,7 @@ public class Application {
     private DataReader dataReader = new DataReader();
     private CommandFactoryImpl commandFactoryImpl = new CommandFactoryImpl();
     private Validator validator = new Validator();
-    private Information information = new Information();
+    private Information information;
 
     public void consoleMod() throws Exception {
         try {
@@ -26,6 +26,7 @@ public class Application {
             Validator validator = new Validator();
             String line;
             while (loop) {
+                information = new Information();
                 try {
                     line = dataReader.getConsoleData();
                     information.takeInformation(line);

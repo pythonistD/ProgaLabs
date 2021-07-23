@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Доработал команду Info">
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Доработал команду Info, сделал методы для получения времени модификации и изменения static">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ConsoleApp_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/ClearCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/ClearCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/InfoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/InfoCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/AddIfMaxCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/AddIfMaxCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/AddIfMinCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/AddIfMinCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/InfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/InfoCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/UpdateCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/UpdateCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Dragon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSV/Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV/Dragon.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/ExecuteScriptCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/ExecuteScriptCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Information.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/ExecuteScriptCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/ExecuteScriptCommand.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
@@ -47,25 +59,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ConsoleApp" />
       <option name="PROGRAM_PARAMETERS" value="CSV\Dragon.csv" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,6 +94,10 @@
       <updated>1626604609619</updated>
       <workItem from="1626604610868" duration="2962000" />
       <workItem from="1626607616802" duration="609000" />
+      <workItem from="1626690026669" duration="3916000" />
+      <workItem from="1626712429506" duration="2988000" />
+      <workItem from="1626855967209" duration="15186000" />
+      <workItem from="1627046691642" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed id check">
       <created>1626607161479</created>
@@ -126,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626640872597</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Доработал команду Info, сделал методы для получения времени модификации и изменения static">
+      <created>1626641945006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626641945006</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,15 +177,16 @@
     <MESSAGE value="Починил команду Save, добавил в команду Exit 'Работа успешно завершена'" />
     <MESSAGE value="Починил класс Information, исправил ошибки в методе takeInformation" />
     <MESSAGE value="Доработал команду Info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доработал команду Info" />
+    <MESSAGE value="Доработал команду Info, сделал методы для получения времени модификации и изменения static" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработал команду Info, сделал методы для получения времени модификации и изменения static" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/control/Validator.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="26" />
+          <line>65</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
