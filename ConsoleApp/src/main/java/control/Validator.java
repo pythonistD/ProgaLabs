@@ -3,7 +3,6 @@ import model.ModelTypes;
 
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
-import java.util.ListIterator;
 
 /**
  * Валидация данных

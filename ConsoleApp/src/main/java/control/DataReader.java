@@ -11,9 +11,13 @@ public class DataReader {
     private static final BufferedReader consoleInput = new BufferedReader(new InputStreamReader(System.in));
     private static BufferedReader readFile;
     private static String inputfileCollection;
-    private boolean loop = true;
 
-    // Интрефейс класса
+    /**
+     * Интерфейс класса
+     * @return
+     * @throws FileNotFoundException
+     * @throws UnsupportedEncodingException
+     */
     public static BufferedReader getCollectionData() throws FileNotFoundException, UnsupportedEncodingException {
         //Проверка правильности пути файла
         Validator.checkFileExist(inputfileCollection);
@@ -38,10 +42,5 @@ public class DataReader {
         String line;
         line = consoleInput.readLine();
         return line;
-    }
-
-    //Сеттеры геттеры
-    protected void setLoop(boolean loop) {
-        this.loop = loop;
     }
 }

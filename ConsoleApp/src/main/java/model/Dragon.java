@@ -72,7 +72,7 @@ public class Dragon implements Comparable<Dragon> {
     public Dragon(Long id, String name, Long age, Double wingspan, Boolean speaking, Coordinates coordinates, DragonHead dragonHead, DragonType type) throws IncorrectIdException {
         this.name = name;
         this.age = age;
-        this.id = ValidateFields.checkId(id);
+        this.id = id;
         this.wingspan = wingspan;
         this.coordinates = coordinates;
         this.speaking = speaking;
