@@ -1,6 +1,7 @@
 package control.commands;
 
 import control.DataReader;
+import control.InfDeliverer;
 import control.Information;
 import control.Validator;
 
@@ -16,6 +17,7 @@ public class ExecuteScriptCommand extends Command {
      * @throws Exception
      */
     public void execute() throws Exception {
+        information = InfDeliverer.infDeliver();
         BufferedReader bufferedReader = DataReader.getData(information.getSecField());
         String command = "1";
         boolean flag = true;

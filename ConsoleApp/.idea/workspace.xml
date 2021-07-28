@@ -4,38 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Чисто всё исправил, теперь доработана валитация, исправлены ошибки в классе Information">
-      <change afterPath="$PROJECT_DIR$/../Client/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ConsoleApp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Исправил update id, теперь правильность id проверяется только в одном месте(во время первоначального прасинга)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/InfDeliverer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV/Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV/Dragon.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/ExecuteScriptCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/ExecuteScriptCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/RemoveByIdCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/RemoveByIdCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/UpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/UpdateCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/control/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Information.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/ExecuteScriptCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/ExecuteScriptCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/RemoveByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/RemoveByIdCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/UpdateCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/UpdateCommand.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -44,6 +38,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -128,7 +123,7 @@
       <workItem from="1627139217191" duration="1507000" />
       <workItem from="1627140753549" duration="1571000" />
       <workItem from="1627383395599" duration="2897000" />
-      <workItem from="1627457236239" duration="1833000" />
+      <workItem from="1627457236239" duration="14132000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed id check">
       <created>1626607161479</created>
@@ -179,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627047613654</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Исправил update id, теперь правильность id проверяется только в одном месте(во время первоначального прасинга)">
+      <created>1627459209740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627459209740</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +220,62 @@
     <MESSAGE value="Доработал команду Info" />
     <MESSAGE value="Доработал команду Info, сделал методы для получения времени модификации и изменения static" />
     <MESSAGE value="Чисто всё исправил, теперь доработана валитация, исправлены ошибки в классе Information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Чисто всё исправил, теперь доработана валитация, исправлены ошибки в классе Information" />
+    <MESSAGE value="Исправил update id, теперь правильность id проверяется только в одном месте(во время первоначального прасинга)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил update id, теперь правильность id проверяется только в одном месте(во время первоначального прасинга)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/commands/ExecuteScriptCommand.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/Application.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/Application.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/InfDeliverer.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/InfDeliverer.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/InfDeliverer.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/control/InfDeliverer.java</url>
+          <line>3</line>
+          <properties field="inf" class="control.InfDeliverer" />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/control/InfDeliverer.java</url>
+          <line>8</line>
+          <properties class="control.InfDeliverer" method="infDeliver">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="inf.getSecField()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -17,6 +17,7 @@ public class Application {
     private Validator validator = new Validator();
     DataWriter dataWriter = new DataWriter();
     private Information information;
+    private InfDeliverer infDeliverer;
 
     public void consoleMod() throws Exception {
         try {
@@ -29,6 +30,7 @@ public class Application {
                 try {
                     line = dataReader.getConsoleData();
                     information.takeInformation(line);
+                    infDeliverer = new InfDeliverer(information);
                     validator.checkLine(information);
                 } catch (IllegalArgumentException badArgument) {
                     System.out.print(badArgument.getMessage());

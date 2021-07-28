@@ -12,7 +12,7 @@ public class Information {
     String command;
     private boolean isSimeple=false;
     private boolean isHard=false;
-    private static long id;
+    private long id;
     private String secField;
 
     public boolean takeInformation(String line) throws Exception {
@@ -63,7 +63,7 @@ public class Information {
         return command;
     }
 
-    public static long getId() {
+    public long getId() {
         return id;
     }
 
