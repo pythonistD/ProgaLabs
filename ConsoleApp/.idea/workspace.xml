@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Добавил gitignore">
-      <change afterPath="$PROJECT_DIR$/../Lab#6/Client/.idea/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab#6/Client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab#6/Client/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab#6/Server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab#6/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab#6/Server/src/main/java/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UPDServer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UPDServer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UPDServer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UPDServer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab#6/Client/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_08_2021_1_21__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab#6/Client/src/main/java/BootClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab#6/Client/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab#6/Server/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab#6/Client/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab#6/Client/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab#6/Client/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab#6/Client/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab#6/Client/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab#6/Client/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab#6/Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab#6/Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab#6/Server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab#6/Server/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab#6/Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab#6/Server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab#6/Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab#6/Server/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab#6/Server/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab#6/Server/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -4,26 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa3c66c3-154f-468f-bc88-50ad9be1e0bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="aa3c66c3-154f-468f-bc88-50ad9be1e0bc" name="Default Changelist" comment="Vsc путь правильный поставил">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_08_2021_1_21__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BootClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyExceptions/IncorrectIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/ConsoleMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/DataWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/IncorrectInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/InfDeliverer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/Information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/ValidateFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/AddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/AddIfMaxCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/AddIfMinCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/ClearCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/CommandFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/DragonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/ExecuteScriptCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/InfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/MaxByTypeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/PrintAscendingCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/PrintUniqueHeadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/RemoveByIdCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/RemoveHeadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/SaveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/ShowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/commands/UpdateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/interfaces/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +59,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="main" />
+        <entry key="$PROJECT_DIR$/../.." value="server" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -56,13 +75,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\IdeaProjects\ProgaLabs\Lab#6\Client\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MyExceptions" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
@@ -87,8 +115,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627941118456</updated>
-      <workItem from="1627941121894" duration="757000" />
+      <workItem from="1627941121894" duration="1895000" />
     </task>
+    <task id="LOCAL-00001" summary="Vsc путь правильный поставил">
+      <created>1627943112883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627943112883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +146,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
+    <MESSAGE value="Vsc путь правильный поставил" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vsc путь правильный поставил" />
   </component>
 </project>
