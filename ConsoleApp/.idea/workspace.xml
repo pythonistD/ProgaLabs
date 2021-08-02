@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Исправил работу RemoveByIdCommand, UpdateCommand, ExecuteScriptCommand. Сделал все поля в Information не статичными, создал класс адаптер InfDeliverer.">
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/NewClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/DataReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Dragon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Что то поменялось не помню что" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627459209740</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Что то поменялось не помню что">
+      <created>1627914835171</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627914835171</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +220,8 @@
     <MESSAGE value="Доработал команду Info, сделал методы для получения времени модификации и изменения static" />
     <MESSAGE value="Чисто всё исправил, теперь доработана валитация, исправлены ошибки в классе Information" />
     <MESSAGE value="Исправил update id, теперь правильность id проверяется только в одном месте(во время первоначального прасинга)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил update id, теперь правильность id проверяется только в одном месте(во время первоначального прасинга)" />
+    <MESSAGE value="Что то поменялось не помню что" />
+    <option name="LAST_COMMIT_MESSAGE" value="Что то поменялось не помню что" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
