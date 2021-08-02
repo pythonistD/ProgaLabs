@@ -4,22 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c183e564-914a-4fae-87d6-5cae412ba602" name="Default Changelist" comment="">
+    <list default="true" id="aa3c66c3-154f-468f-bc88-50ad9be1e0bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/DataReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/target/classes/model/Dragon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1vikPyM6dIgMQf6bGtaSTnVRKFe" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1wBo0QKGSdu5l1ahHDnPGUs73Vq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -28,25 +54,40 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c183e564-914a-4fae-87d6-5cae412ba602" name="Default Changelist" comment="" />
-      <created>1627052279902</created>
+      <changelist id="aa3c66c3-154f-468f-bc88-50ad9be1e0bc" name="Default Changelist" comment="" />
+      <created>1627941118456</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1627052279902</updated>
-      <workItem from="1627052281378" duration="610000" />
-      <workItem from="1627136415701" duration="1473000" />
-      <workItem from="1627906769732" duration="1210000" />
+      <updated>1627941118456</updated>
+      <workItem from="1627941121894" duration="757000" />
     </task>
     <servers />
   </component>
@@ -56,31 +97,6 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="357db668-bb4f-4890-b8db-ecd3bec1179f">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:C:/Users/Professional/IdeaProjects/ProgaLabs/Client/src/main/java" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -91,6 +107,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
   </component>
 </project>
