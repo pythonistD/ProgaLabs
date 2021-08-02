@@ -5,25 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa3c66c3-154f-468f-bc88-50ad9be1e0bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UPDServer/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/DataWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/IncorrectInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/InfDeliverer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/Information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/ValidateFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/AddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/AddIfMaxCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/AddIfMinCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/ClearCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/CommandFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/DragonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/ExecuteScriptCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/InfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/MaxByTypeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/PrintAscendingCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/PrintUniqueHeadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/RemoveByIdCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/RemoveHeadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/SaveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/ShowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/commands/UpdateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/control/interfaces/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/model/Dragon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
