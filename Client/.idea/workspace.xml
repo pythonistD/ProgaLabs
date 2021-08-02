@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c183e564-914a-4fae-87d6-5cae412ba602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleApp/target/ConsoleApp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleApp/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/src/main/java/control/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/src/main/java/control/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/DataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/target/classes/control/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/target/classes/model/Dragon.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ConsoleApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,6 +46,7 @@
       <updated>1627052279902</updated>
       <workItem from="1627052281378" duration="610000" />
       <workItem from="1627136415701" duration="1473000" />
+      <workItem from="1627906769732" duration="1210000" />
     </task>
     <servers />
   </component>

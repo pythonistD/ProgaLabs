@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Исправил update id, теперь правильность id проверяется только в одном месте(во время первоначального прасинга)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/control/InfDeliverer.java" afterDir="false" />
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Исправил работу RemoveByIdCommand, UpdateCommand, ExecuteScriptCommand. Сделал все поля в Information не статичными, создал класс адаптер InfDeliverer.">
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/NewClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/Information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/ExecuteScriptCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/ExecuteScriptCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/RemoveByIdCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/RemoveByIdCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/commands/UpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/commands/UpdateCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Information.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/ExecuteScriptCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/ExecuteScriptCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/RemoveByIdCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/RemoveByIdCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/commands/UpdateCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/commands/UpdateCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/DataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Dragon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="server" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -52,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/control/Parser.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSV/Dragon.csv" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1vU72p1PF19ujdo6cbNaTL444kg" />
@@ -70,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab#6/Server" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -81,17 +77,6 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ConsoleApp" />
       <option name="PROGRAM_PARAMETERS" value="CSV\Dragon.csv" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,13 +183,28 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="total-fix" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
