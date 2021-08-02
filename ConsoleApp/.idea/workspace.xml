@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Что то поменялось не помню что" />
+    <list default="true" id="dd23ec3d-d7d4-4c55-8881-fea5699bed30" name="Default Changelist" comment="Чё то изменилось в workspace.xml. Нужно закомитить, чтобы смог переключиться на main ветку">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSV/Dragon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV/Dragon.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +29,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -165,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627914835171</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Чё то изменилось в workspace.xml. Нужно закомитить, чтобы смог переключиться на main ветку">
+      <created>1627915026198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627915026199</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +231,8 @@
     <MESSAGE value="Чисто всё исправил, теперь доработана валитация, исправлены ошибки в классе Information" />
     <MESSAGE value="Исправил update id, теперь правильность id проверяется только в одном месте(во время первоначального прасинга)" />
     <MESSAGE value="Что то поменялось не помню что" />
-    <option name="LAST_COMMIT_MESSAGE" value="Что то поменялось не помню что" />
+    <MESSAGE value="Чё то изменилось в workspace.xml. Нужно закомитить, чтобы смог переключиться на main ветку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Чё то изменилось в workspace.xml. Нужно закомитить, чтобы смог переключиться на main ветку" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
