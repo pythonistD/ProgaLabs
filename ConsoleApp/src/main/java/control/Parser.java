@@ -27,6 +27,7 @@ public class Parser {
         CSVParser parser = CSVParser.parse(currentline, CSVFormat.EXCEL);
         for (CSVRecord csvRecord : parser) {
              long id = Long.parseLong(csvRecord.get(0));
+             ValidateFields.checkId(id);
             String name =ValidateFields.checkName(csvRecord.get(1));
             Long age = ValidateFields.checkAge(csvRecord.get(2));
             double wingspan = ValidateFields.checkWingSpan(csvRecord.get(3));
@@ -53,6 +54,7 @@ public class Parser {
         String data = field.replaceAll("[{}]", "");
         return data;
     }
+
 
 
 }

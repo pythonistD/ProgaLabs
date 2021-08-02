@@ -8,6 +8,7 @@ import model.Dragon;
 import model.DragonHead;
 import model.DragonType;
 
+import java.time.LocalDateTime;
 import java.util.ListIterator;
 
 public class AddCommand extends Command {
@@ -35,6 +36,7 @@ public class AddCommand extends Command {
     public Dragon createDragon() throws Exception {
         ListIterator<String> promptsiterator = Utility.promptsListtocreate().listIterator();
         String promptToChange = promptsiterator.next();
+        long id = Dragon.getDragonsCollection().getLast().getId() + 1;
         System.out.println(promptToChange);
         String name = ValidateFields.checkNameInteractive(promptToChange);
         promptToChange = promptsiterator.next();
@@ -59,7 +61,8 @@ public class AddCommand extends Command {
         System.out.println(promptToChange);
         DragonType dragonType = ValidateFields.checkDragonTypeInteractive(promptToChange);
         Dragon dragon =
-                new Dragon(name, age, wingspan, speaking, new Coordinates(x, y), new DragonHead(tooth), dragonType);
+                new Dragon(id,name, age, wingspan, speaking, new Coordinates(x, y), new DragonHead(tooth), dragonType);
+        dragon.setEndDate(LocalDateTime.now());
         return dragon;
     }
 }

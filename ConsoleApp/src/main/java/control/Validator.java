@@ -48,20 +48,10 @@ public class Validator {
         try {
             Long.parseLong(field);
         } catch (Exception e) {
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
-
-    public boolean isModelType(String field) {
-        try {
-            ModelTypes.valueOf(field);
-        } catch (Exception e) {
-            return false;
-        }
-        return true;
-    }
-
     public boolean checkCommand(String command) {
         for (String s : utility.avalibleCommandList()) {
             if (s.equals(command)) {
@@ -72,26 +62,33 @@ public class Validator {
     }
 
     public void checkLine(Information inf) throws Exception {
-        boolean profCommand;
-        boolean profModelType;
-        profCommand = checkCommand(inf.getCommand());
-        if (inf.getModleType() != null) {
-            profModelType = checkModelType(inf.getModleType());
-            isRight(profModelType);
+        if(!checkCommand(inf.getCommand())){
+            throw new IncorrectInputException("wrong command");
         }
-        isRight(profCommand);
+        if(inf.getIsSimple()){
+            if(inf.getSecField() != null){
+                throw new IncorrectInputException("To long command");
+            }
+        }
+        if(inf.getIsHard()){
+            if(inf.getCommand().equals("add") | inf.getCommand().equals("add_if_max") | inf.getCommand().equals("add_if_min")){
+                checkModelType(inf.getSecField());
+            }
+
+        }
     }
 
-    public boolean checkModelType(String modeltype) {
-        try {
-            ModelTypes.valueOf(modeltype);
-        } catch (Exception e) {
-            return false;
+    public void checkModelType(String modeltype) throws IncorrectInputException, NullPointerException {
+        if(!modeltype.equals("{Dragon}")){
+            throw new IncorrectInputException("wrong model type");
         }
-        return true;
+
     }
 
     public String getCommand() {
         return Command;
     }
+
+
+
 }

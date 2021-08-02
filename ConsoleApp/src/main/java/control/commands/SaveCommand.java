@@ -23,9 +23,9 @@ public class SaveCommand extends Command {
                 new BufferedWriter(
                         new OutputStreamWriter(
                                 new FileOutputStream("CSV\\Dragon.csv"), StandardCharsets.UTF_8));
-        out.write("id,name,age,wingspan,speaking,x,y,tooth,type");
-        Dragon dragonNext = dragonListIterator.next();
+                Dragon dragonNext;
         while (dragonListIterator.hasNext()) {
+            dragonNext = dragonListIterator.next();
             dragonNext.setEndDate(LocalDateTime.now());
             out.write(dragonNext.toString());
         }

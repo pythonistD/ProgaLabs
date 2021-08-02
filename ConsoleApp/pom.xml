@@ -36,8 +36,8 @@
                             <goal>upload-single</goal>
                         </goals>
                         <configuration>
-                            <fromFile>C:\Users\Yaroslav\Desktop\ITMOlabs-main\ConsoleApp\out\artifacts\ConsoleApp_jar\ConsoleApp.jar</fromFile>
-                            <url>helios.cs.ifmo.ru</url>
+                            <fromFile>C:\Users\Professional\IdeaProjects\ProgaLabs\ConsoleApp\out\artifacts\ConsoleApp_jar\ConsoleApp.jar</fromFile>
+                            <url>helios.cs.ifmo.ru:/home/s268819/ProgaLabs</url>
                         </configuration>
                     </execution>
                 </executions>

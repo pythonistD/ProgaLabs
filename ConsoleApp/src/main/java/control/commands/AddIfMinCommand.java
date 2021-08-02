@@ -2,6 +2,7 @@ package control.commands;
 
 import model.Dragon;
 
+import java.time.LocalDateTime;
 import java.util.Collections;
 
 public class AddIfMinCommand extends Command {
@@ -17,6 +18,7 @@ public class AddIfMinCommand extends Command {
         Dragon dragonNew = addCommand.createDragon();
         if (dragonComparator.compare(dragonMin, dragonNew) > 0) {
             dragonNew.inctCounter();
+            dragonNew.setEndDate(LocalDateTime.now());
             Dragon.getDragonsCollection().add(dragonNew);
             System.out.println("Дракон минимален, поэтому успешно добавлен");
         }

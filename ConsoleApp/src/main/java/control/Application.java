@@ -15,20 +15,22 @@ public class Application {
     private DataReader dataReader = new DataReader();
     private CommandFactoryImpl commandFactoryImpl = new CommandFactoryImpl();
     private Validator validator = new Validator();
-    private Information information = new Information();
+    DataWriter dataWriter = new DataWriter();
+    private Information information;
+    private InfDeliverer infDeliverer;
 
     public void consoleMod() throws Exception {
         try {
             Utility.createAvailableCommandsMap();
             DataReader.getCollectionData();
-            DataWriter dataWriter = new DataWriter();
             dataWriter.writeCollectionData(DataReader.getCollectionData());
-            Validator validator = new Validator();
             String line;
             while (loop) {
+                information = new Information();
                 try {
                     line = dataReader.getConsoleData();
                     information.takeInformation(line);
+                    infDeliverer = new InfDeliverer(information);
                     validator.checkLine(information);
                 } catch (IllegalArgumentException badArgument) {
                     System.out.print(badArgument.getMessage());
@@ -40,16 +42,15 @@ public class Application {
                 }
                 commandFactoryImpl.chooseCommand(information.getCommand()).execute();
             }
-        } catch (FileNotFoundException noFile) {
+        } catch (FileNotFoundException | UnsupportedEncodingException | IncorrectIdException noFile) {
             System.out.print(noFile.getMessage());
-        } catch (UnsupportedEncodingException badFileEncoding) {
-            System.out.print(badFileEncoding.getMessage());
-        } catch (IncorrectIdException badId) {
-            System.out.print(badId.getMessage());
         }
     }
 
-    // Отвечает за остановку цикла
+    /**
+     * Отвечает за остановку цикла(программы)
+     * @param loop
+     */
     public static void setTreat(boolean loop) {
         Application.loop = loop;
     }

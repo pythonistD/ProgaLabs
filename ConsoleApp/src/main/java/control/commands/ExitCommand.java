@@ -10,5 +10,6 @@ public class ExitCommand extends Command{
     @Override
     public void execute() {
         Application.setTreat(false);
+        System.out.println("Работа успешно завершена");
     }
 }
