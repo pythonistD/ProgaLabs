@@ -1,10 +1,6 @@
 package control;
 
-import MyExceptions.IncorrectIdException;
 import control.commands.CommandFactoryImpl;
-
-import java.io.FileNotFoundException;
-import java.io.UnsupportedEncodingException;
 import java.util.NoSuchElementException;
 
 /**
@@ -15,15 +11,11 @@ public class ConsoleMod {
     private DataReader dataReader = new DataReader();
     private CommandFactoryImpl commandFactoryImpl = new CommandFactoryImpl();
     private Validator validator = new Validator();
-    DataWriter dataWriter = new DataWriter();
     private Information information;
     private InfDeliverer infDeliverer;
 
     public Object getDataFromKeyboard() throws Exception {
-        try {
             Utility.createAvailableCommandsMap();
-            DataReader.getCollectionData();
-            dataWriter.writeCollectionData(DataReader.getCollectionData());
             String line;
             while (loop) {
                 information = new Information();
@@ -42,9 +34,6 @@ public class ConsoleMod {
                 }
                 break;
             }
-        } catch (FileNotFoundException | UnsupportedEncodingException | IncorrectIdException noFile) {
-            System.out.print(noFile.getMessage());
-        }
         return commandFactoryImpl.chooseCommand(information.getCommand());
     }
 
